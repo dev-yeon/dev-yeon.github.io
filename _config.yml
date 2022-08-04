@@ -12,20 +12,21 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "yeon's TIL"
+title                    : "kimdh7 Develop Blog"
 title_separator          : "-"
-subtitle                 : "version 1.0"
-name                     : "yeon"
-description              : "Do it right now."
-url                      : "https://dev-yeon.github.io"
-repository               : "https://github.com/dev-yeon/dev-yeon.github.io"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "kimdh7"
+description              : "습관이 사람을 만든다."
+url                      : "https://kimdh7.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "https://github.com/kimdh7/kimdh7.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "yeon's TIL"
+masthead_title           : "Do it right now"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -103,24 +104,30 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yeon"
-  avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "매일 공부하고 있습니다."
-  location         : "yo mama's bedroom"
-  email            : "nochi@kakao.com"
+  name             : "kimdh7"
+  avatar           : "/assets/dhk.jpg"
+  bio              : "Backend Engineer."
+  location         : "Seoul"
+  email            : "dhkim7@kakao.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "mailto:nochi@kakao.com"
+      url: "mailto:dhkim7@kakao.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/dev-yeon"
+      url: "https://github.com/kimdh7"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "I DO NOT SNS"
+      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -128,10 +135,12 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
-
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/dev-yeon"
+      # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -140,7 +149,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "I DO NOT SNS"
+      # url:
 
 
 # Reading Files
@@ -209,7 +218,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 15 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -281,9 +290,7 @@ defaults:
       comments: # true
       share: true
       related: true
-
-  # _pages
-  - -scope:
+  - scope:
       path: "_pages"
       type: pages
     values:
