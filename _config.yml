@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "kimdh7 Develop Blog"
+title                    : "dev-yeon TIL"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "kimdh7"
+name                     : "yeon"
 description              : "습관이 사람을 만든다."
-url                      : "https://kimdh7.github.io"
+url                      : "https://dev-yeon.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/kimdh7/kimdh7.github.io"
+repository               : "https://github.com/dev-yeon/dev-yeon.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Do it right now"
@@ -104,15 +104,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "kimdh7"
-  avatar           : "/assets/dhk.jpg"
-  bio              : "Backend Engineer."
+  name             : "yeon"
+  avatar           : "/assets/yeon.jpg"
+  bio              : "매일 공부하고 있습니다."
   location         : "Seoul"
-  email            : "dhkim7@kakao.com"
+  email            : "nochi@kakao.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:dhkim7@kakao.com"
+      url: "mailto:nochi@kakao.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -124,7 +124,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/kimdh7"
+      url: "https://github.com/dev-yeon"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
